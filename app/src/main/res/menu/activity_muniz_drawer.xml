@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/equipo"
+            android:icon="@drawable/equipo"
+            android:title="Jugadores" />
+        <item
+            android:id="@+id/fixture"
+            android:icon="@drawable/calendario"
+            android:title="Fixture" />
+        <item
+            android:id="@+id/tienda"
+            android:icon="@drawable/contacto"
+            android:title="Tienda" />
+    </group>
+
+    <item android:title="Redes Sociales">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/femebal"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Femebal" />
+        </menu>
+    </item>
+
+</menu>
